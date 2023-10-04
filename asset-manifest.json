@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/dima18127/react-gh-pages/Reactive_table_form/static/css/main.9fb17cdd.css",
-    "main.js": "/dima18127/react-gh-pages/Reactive_table_form/static/js/main.bf0242db.js",
-    "index.html": "/dima18127/react-gh-pages/Reactive_table_form/index.html",
-    "main.9fb17cdd.css.map": "/dima18127/react-gh-pages/Reactive_table_form/static/css/main.9fb17cdd.css.map",
-    "main.bf0242db.js.map": "/dima18127/react-gh-pages/Reactive_table_form/static/js/main.bf0242db.js.map"
+    "main.css": "/Reactive_table_form/static/css/main.9fb17cdd.css",
+    "main.js": "/Reactive_table_form/static/js/main.bf0242db.js",
+    "index.html": "/Reactive_table_form/index.html",
+    "main.9fb17cdd.css.map": "/Reactive_table_form/static/css/main.9fb17cdd.css.map",
+    "main.bf0242db.js.map": "/Reactive_table_form/static/js/main.bf0242db.js.map"
   },
   "entrypoints": [
     "static/css/main.9fb17cdd.css",
