@@ -1,0 +1,12 @@
+@import '../../assets/styles/variables';
+.container {
+  display: block;
+  padding: 20px 3px 15px 25px;
+  width: fit-content;
+  height: fit-content;
+  height: 380px;
+  margin: 80px auto;
+  background-color: $darkgrey;
+  display: flex;
+  justify-content: space-between;
+}

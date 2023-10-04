@@ -1,0 +1,43 @@
+@import '../../assets/styles/variables';
+.form legend {
+  position: absolute;
+  top: -15px;
+  background-color: $darkgrey;
+}
+.form {
+  display: flex;
+  height: 100%;
+  flex-basis: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  border: 1px solid $lightgrey;
+  border-radius: 5px;
+  padding: 10px 5px;
+  position: relative;
+}
+.form input[type='number'],
+input[type='text'],
+select {
+  width: 200px;
+  height: 30px;
+  border: 1px solid $lightgrey;
+  padding: 5px;
+  border-radius: 5px;
+  color: $maincolor;
+  background-color: transparent;
+}
+.form input::placeholder {
+  color: $maincolor;
+}
+.form input:focus::placeholder {
+  color: transparent;
+  transition: all 0.1s;
+}
+hr {
+  width: 80%;
+  margin: 0 auto;
+  border: none;
+  height: 1px;
+  color: $lightgrey;
+  background-color: $lightgrey;
+}

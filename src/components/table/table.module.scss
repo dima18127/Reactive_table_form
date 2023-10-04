@@ -1,0 +1,89 @@
+@import "../../assets/styles/variables";
+.container {
+    margin-left: 30px;
+    width: 100%;
+    padding: 0px 5px;
+}
+.tableWrap {
+    height: 100%;
+    border: 1px $lightgrey solid;
+    border-radius: 5px;
+    padding: 5px;
+    border-right: 15px;
+    overflow-y: scroll;
+}
+.tableWrap::-webkit-scrollbar {
+    margin-left: 10px;
+    width: 8px; /* ширина scrollbar */
+}
+.tableWrap::-webkit-scrollbar-track {
+    background: $lightgrey; /* цвет дорожки */
+}
+.tableWrap::-webkit-scrollbar-thumb {
+    background-color: $green;
+}
+
+.table {
+    overflow-y: scroll;
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+        margin-top: 2px;
+        margin-left: 2px;
+        padding: 1rem;
+        background-color: $lightgrey;
+    }
+    th,
+    td {
+        padding: 5px;
+    }
+    th {
+      text-transform: capitalize;
+        padding-right: 20px;
+        position: relative;
+    }
+    th:hover {
+        color: #d6d6d6;
+    }
+    th::before,
+    th::after {
+        content: "";
+        width: 10px;
+        height: 2px;
+        background-color: $maincolor;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 0px;
+        transition: transform 0.5s;
+    }
+    th::before {
+        rotate: -45deg;
+    }
+    th::after {
+        rotate: 45deg;
+        right: 7px;
+    }
+    th.active {
+      color: #d6d6d6;
+
+      &::before{
+        rotate: 45deg;
+
+      }
+      &::after{
+        rotate: -45deg;
+        right: 6px;
+
+
+      }
+    }
+    th:focus {
+      background-color: #727070;
+    }
+
+    tr:hover {
+        cursor: pointer;
+        background-color: #4b4b4b;
+    }
+}
